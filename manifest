@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+description: The RSA SecurID Software Token API provides classes to implement, manage, and use RSA SecurID software tokens running on mobile devices.
+author: Dawson Toth
+license: Appcelerator Commercial License
+copyright: Copyright (c) 2010-2011 by Appcelerator, Inc.
+
+
+# these should not be edited
+name: securid
+moduleid: ti.securid
+guid: 48964144-e5ce-4c80-9578-1d95243ca184
+platform: iphone
+minsdk: 1.6.0
