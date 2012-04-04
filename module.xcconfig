@@ -11,8 +11,6 @@
 // How to add a Framework (example)
 //
 OTHER_LDFLAGS=$(inherited) /usr/lib/libz.dylib /usr/lib/libsqlite3.dylib -framework Security -framework SystemConfiguration -framework CFNetwork
-OTHER_LDFLAGS[sdk=iphoneos*]=$(inherited) $SRCROOT/../../modules/iphone/ti.securid/1.0/lib/os/libSecurIDLib.a
-OTHER_LDFLAGS[sdk=iphonesimulator*]=$(inherited) $SRCROOT/../../modules/iphone/ti.securid/1.0/lib/simulator/libSecurIDLib.a
 
 //
 // Adding a framework for a specific version(s) of iPhone:

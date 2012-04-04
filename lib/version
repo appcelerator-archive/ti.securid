@@ -1,1 +1,5 @@
 1.4.0 (beta release direct from RSA)
+
+HOW TO COMBINE LIBRARIES:
+cd in to this directory, then...
+> lipo -create os/libSecurIDLib.a simulator/libSecurIDLib.a -output libSecurIDLib.a
