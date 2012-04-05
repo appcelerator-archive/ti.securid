@@ -181,7 +181,7 @@ def package_module(manifest,mf,config):
 			for file, html in doc.iteritems():
 				filename = string.replace(file,'.md','.html')
 				zf.writestr('%s/documentation/%s'%(modulepath,filename),html)
-	for dn in ('assets','example','platform','lib'):
+	for dn in ('assets','example','platform'):
 	  if os.path.exists(dn):
 		  zip_dir(zf,dn,'%s/%s' % (modulepath,dn),['README'])
 	zf.write('LICENSE','%s/LICENSE' % modulepath)
