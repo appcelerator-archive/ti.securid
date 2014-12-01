@@ -14,4 +14,4 @@ name: securid
 moduleid: ti.securid
 guid: 48964144-e5ce-4c80-9578-1d95243ca184
 platform: iphone
-minsdk: 1.6.0
+minsdk: 3.0.0.GA
