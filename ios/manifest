@@ -3,8 +3,7 @@
 # during compilation, packaging, distribution, etc.
 #
 version: 1.1.0
-apiversion: 2
-architectures: armeabi armeabi-v7a x86
+architectures: armv7 i386 x86_64 arm64
 description: The RSA SecurID Software Token API provides classes to implement, manage, and use RSA SecurID software tokens running on mobile devices.
 author: Dawson Toth
 license: Appcelerator Commercial License
@@ -16,4 +15,4 @@ name: securid
 moduleid: ti.securid
 guid: 48964144-e5ce-4c80-9578-1d95243ca184
 platform: iphone
-minsdk: 3.4.1
+minsdk: 3.4.1.GA
